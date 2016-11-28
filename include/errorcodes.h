@@ -1,0 +1,20 @@
+#include <limits.h>
+
+typedef enum err {
+	ERR = INT_MIN,
+	ERR_SUDO,
+	ERR_UID,
+	ERR_FORK,
+	ERR_NULL,
+	ERR_OPEN,
+	ERR_DLT,
+	ERR_OPTIONS,
+	ERR_READ,
+	ERR_SETIF,
+	ERR_BIDIRECTION,
+	ERR_HDRCMPLT,
+	ERR_IMMEDIATE,
+	ERR_BLEN,
+	ERR_ALLOC,
+	ERR_SOCKET
+} err;
