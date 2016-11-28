@@ -73,7 +73,7 @@ Basic examples of bfps:
 macOS does not have eBPFs yet so `netman` cannot monitor specific sockets for specific applications, only interfaces. What does this mean? Well if multiple applications are the network then your byte limit may be reached much faster. [Socket filters](https://developer.apple.com/library/content/documentation/Darwin/Conceptual/NKEConceptual/socket_nke/socket_nke.html#//apple_ref/doc/uid/TP40001858-CH228-SW1) would be a logical next step. 
 
 ### License
-See [LICENSE](./LICENSE).
+See [LICENSE](./LICENSE.md).
 
 ### Disclaimer
-See [DISCLAIMER](./LICENSE).
+See [DISCLAIMER](./DISCLAIMER.md).
