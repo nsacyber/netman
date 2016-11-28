@@ -1,5 +1,5 @@
 # netman 
-## '''Net'''work '''Man'''agement, Monitoring, and Limiting
+## **Net**work **Man**agement, Monitoring, and Limiting
 
 ### Installation and Usage
 
@@ -17,19 +17,19 @@ Note: some of `netman`'s functionality requires elevated privileges
 The above command will limit the `wget https://example.com/script | sh` command to 25MB system wide. After that, the command will be terminated. 
 
 #### Command Chaining
-'''Example One'''
+**Example One**
 	 
 	 sudo netman --command="wget https://example.com/script | sh" --limit=25 -H monitor && sudo netman down
 
 The above command is similiar to the ''Command Data Limiting'' example, but afterwards it will shutdown all network interfaces.
 
-'''Example Two'''
+**Example Two**
 
 	 netman down && netman up en0 && sudo netman --command="wget https://example.com/script | sh" --limit=25 -H monitor && sudo netman down
 
 The above command is similiar to example one except the command will only use the `en0` network interface.
 
-'''Example Three'''
+**Example Three**
 
 	 netman --limit=100 -H && kill -9 6543
 
