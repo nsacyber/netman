@@ -1,7 +1,7 @@
 # netman 
 ## **Net**work **Man**agement, Monitoring, and Limiting
 
-netman is a userland **net**work **man**ager, with monitoring and limiting capabilities. 
+netman is a userland **net**work **man**ager, with monitoring and limiting capabilities for macOS. See below for example use-cases.
 
 ### Installation and Usage
 
